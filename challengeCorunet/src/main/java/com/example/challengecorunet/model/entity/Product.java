@@ -20,7 +20,6 @@ import static javax.persistence.GenerationType.IDENTITY;
 @Table(name = "PRODUCTS")
 public class Product implements Serializable {
 
-
     @Id
     @GeneratedValue(strategy = IDENTITY)
     @Column(name = "ID", unique = true, nullable = false)
@@ -28,7 +27,5 @@ public class Product implements Serializable {
 
     @Column(name = "NAME")
     private String name;
-
-
 }
 

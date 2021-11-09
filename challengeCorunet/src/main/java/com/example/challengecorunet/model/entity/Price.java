@@ -61,6 +61,5 @@ public class Price implements Serializable {
     @Column(name = "CURR")
     private String createdAt;
 
-
 }
 

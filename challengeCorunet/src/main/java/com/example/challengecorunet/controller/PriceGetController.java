@@ -31,5 +31,4 @@ public class PriceGetController {
         return ResponseEntity.ok().body(priceGetService.execute(date, productId, brandId));
 
     }
-
 }
